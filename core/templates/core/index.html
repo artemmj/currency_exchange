@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF8">
+  <title>homepage</title>
+  <style>
+    .main {
+      width: fit-content;
+      text-align: center;
+      background-color: silver;
+    }
+    .content {
+      text-align: center
+    }
+  </style>
+</head>
+<body>
+  <div class=main>
+    <a href="auth/create">Registration</a> ||
+    <a href="auth/login">Log in</a>
+  </div>
+  <div class=content>
+    <h1>Dollar:</h1>
+    <h2>EUR: {{ eur }}</h2>
+    <h2>GBP: {{ gbp }}</h2>
+    <h2>RUB: {{ rub }}</h2>
+    <h2>BTC: {{ btc }}</h2>
+    <br>
+    <h2>In 100 dollars {{ 100dollarseur }} EURO</h2>
+    <h2>In 100 dollars {{ 100dollaersgbp }} GBP</h2>
+    <h2>In 100 dollars {{ 100dollarsrub }} RUB</h2>
+    <h2>In 100 dollars {{ 100dollarsbtc }} BTC</h2>
+  </div>
+</body>
+</html>
